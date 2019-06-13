@@ -5,17 +5,54 @@
     <title>The title of my page</title>
 
     <style type="text/css">
-        h1 {
-            font-size: 100px;
+        .number {
+            font-size: 4em;
             color: blue;
+            max-width: 100%;
+            max-height: 100%;
+            float: left;
+            padding: 1em;
+        }
+        .number2{
+            float: left;
+            font-size: 4em;
+            color: blue;
+            padding: 1em
+        
+
+        }
+        .number3{
+            float: left;
+            font-size: 4em;
+            color: blue;
+            padding: 1em;
+
+        }
+        .highlight{
+            color: yellow;
+        }
+        .allNUmbers{
+            width:100%;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <h1>16</h1>
+    <div class="allNumbers">
+        <div>
+            <h1 class="number">0</h1>
+        </div>
+        <div>
+            <h1 class="number2">0</h1>
+        </div>
+        <div>
+            <h1 class="number3">0</h1>
+        </div>
     </div>
+    <div class="message"> </div>
+    <script type="text/javascript" src="matches.js">
+    </script>
 </body>
+
 
 </html>
